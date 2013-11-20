@@ -23,7 +23,7 @@ set_time_limit(60*10);
 
 //HOW TO ADD CRONTAB
 // crontab -e
-// */20 * * * * wget http://[SERVER]/[script].php >/dev/null 2>&1
+// */20 * * * * wget http://[SERVER]/[script].php -O /dev/null >/dev/null 2>&1
 
  
 function work(){
